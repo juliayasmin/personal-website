@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.bg{
+    width: 100%;
+    background-image: url('../media/bgbio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.title{
+  text-align: center;
+  font-family: Poller One, cursive;
+  color: #6d1f31;
+}
+
+.dropbtn {
+  background-color: #6b5334;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #a88f6ef1;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #6b5334f1;
+}
+
+table, tr, td
+  {
+    border: 2px solid black;
+    padding: 12.5px;
+    width: 50%;
+    text-align: center;
+  }
+table
+  {
+    border-spacing: 3px;
+  }
+
+tr:hover
+  {
+    background-color: lightcoral;
+  }
